@@ -5,10 +5,12 @@ Introduction:
 
 The assignment explores basic principles of autonomous navigation using an agent-based model. The robot (agent) navigates tasks while avoiding obstacles. It uses A* search and IDA* (iterative Deepening A*) to find the best routes. It chooses the nearest task to complete first rather than the 1st task. 
 
+
 Running the simulation:
 
 Each folder (A star simulator and IDA star simulator) contains a run.py file. Open the desired folder and execute run.py to run the desired algorithm. 
 A pygame window will open which will display the grid, tasks, robot and obstacles. 
+
 
 Observations:
 
@@ -21,6 +23,7 @@ The agent keeps track of completed tasks, and the system is designed to update t
 The simulation includes a graphical user interface (GUI) built with Pygame. It displays the grid, barriers, tasks, and a status section showing completed tasks, the agent's position, and the total path cost.
 
 The approach utilizes a heuristic (Manhattan distance) to guide the pathfinding algorithms, which helps in efficiently determining the agent's routes across the grid.
+
 
 Challenges and solution:
 
