@@ -1,5 +1,6 @@
 # Assignment---I-Simulation-and-Analysis-of-A-and-IDA-Algorithms
 Assignment - I: Simulation and Analysis of A* and IDA*  Algorithms
+
 Introduction:
 
 The assignment explores basic principles of autonomous navigation using an agent-based model. The robot (agent) navigates tasks while avoiding obstacles. It uses A* search and IDA* (iterative Deepening A*) to find the best routes. It chooses the nearest task to complete first rather than the 1st task. 
@@ -28,3 +29,4 @@ Randomly placing barriers and tasks can result in scenarios where tasks are comp
 Performance and efficiency issues arise with the IDA* algorithm in larger grids, which can be mitigated by optimizing the heuristic function and introducing memoization to store computed paths.
 
 Tracking the agent's state accurately can lead to inconsistencies, such as attempting to move when no tasks are left.
+
